@@ -1,0 +1,57 @@
+/*
+https://www.breadcrumbs.tw/?RID=C6625168-t8888866666999991234&Click_ID=777eb7f7d77c7ad7c7c77e7cd777a7
+
+https://makeda.breadcrumbs.tw/index.php/product/test_order2/
+
+
+2019-09-25 08:15:17 :: CANCELLED : 
+$api_parameters :{"Format":"json","Target":"Conversion","Method":"create","Service":"HasOffers","Version":"2","NetworkId":"marktamerica","NetworkToken":"NETPYKNAYOswzsboApxaL6GPQRiY2s","data[offer_id]":"12428","data[advertiser_id]":"12192","data[sale_amount]":390,"data[affiliate_id]":12,"data[payout]":46.7999999999999971578290569595992565155029296875,"data[revenue]":46.7999999999999971578290569595992565155029296875,"data[advertiser_info]":358,"data[affiliate_info1]":"C6230296-t8888888888888888888","data[ad_id]":"102eb2f7d72c0ad7c4c38e1cd197a4","data[is_adjustment]":1,"data[session_datetime]":"2019-09-25 08:15:17"}
+
+2019-09-25 08:15:17 :: CANCELLED : response json encode : {"response":{"errors":{"publicMessage":"v2 URL missing Target"},"link":"http:\/\/developers.hasoffers.com\/"}}
+
+
+
+order completed:
+
+https://api.hasoffers.com/Api?
+Format=json%26
+Target=Conversion%26
+Method=create%26
+Service=HasOffers%26
+Version=2%26
+NetworkId=marktamerica
+%26NetworkToken=NETPYKNAYOswzsboApxaL6GPQRiY2s
+%26data[offer_id]= Offer_Id
+%26data[advertiser_id]= Advertiser_ID
+%26data[sale_amount]= Order_Amount
+%26data[affiliate_id]=12
+%26data[payout]= Commission_Amount
+%26data[revenue]= Commission_Amount
+%26data[advertiser_info]= ORDER_ID
+%26data[affiliate_info1]= RID
+%26data[ad_id]= Click_ID
+%26data[session_datetime]= DateTime;
+
+
+order cancel:
+
+https://api.hasoffers.com/Api?
+Format=json
+%26Target=Conversion
+%26Method=create
+%26Service=HasOffers
+%26Version=2
+%26NetworkId=marktamerica
+%26NetworkToken=NETPYKNAYOswzsboApxaL6GPQRiY2s
+%26data[offer_id]= Offer_Id
+%26data[advertiser_id]= Advertiser_ID
+%26data[sale_amount]= Refund_Amount
+%26data[affiliate_id]=12
+%26data[payout]= Commission_Amount
+%26data[revenue]= Commission_Amount 
+%26data[advertiser_info]= ORDER_ID
+%26data[affiliate_info1]= RID
+%26data[ad_id]= Click_ID
+%26data[is_adjustment]=1
+%26data[session_datetime]=Date;
+*/

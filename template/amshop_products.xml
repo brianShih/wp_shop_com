@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products>
+	<Product>
+		<SKU>產品編號</SKU>
+		<Name>商品名稱</Name>
+		<Description>產品敘述</Description>
+		<URL>產品網址</URL>
+		<Price>售價</Price>
+		<LargeImage>圖片網址</LargeImage>
+		<SalePrice>優惠價</SalePrice>
+		<UPC>UPC商品條碼</UPC>
+		<ISBN>ISBN書碼</ISBN>
+		<MPN>零件號碼</MPN>
+		<Manufacturer>製造商名稱</Manufacturer>
+		<Brand>品牌名稱</Brand>
+		<Category>分類</Category>
+		<EAN>EAN商品條碼</EAN>
+		<Condition>New</Condition>
+	</Product>
+</Products>
+
+
+
+
+/*
+1 SKU C 必填，最大50字元，帶入商品編號
+2 Name C 必填，最大255字元，帶入商品名稱
+3 Description C 必填，最大4000字元，帶入商品敘述
+4 URL C 必填，最大2000字元，帶入商品頁面網址
+5 Price N 必填，最大10字元，帶入商品頁面網址
+6 LargeImage C 必填，最大2000字元，帶入商品圖片網址
+// 7 SalePrice N 非必填，最大10字元，促銷價格
+// 8 UPC C 非必填，最大20字元，UPC商品條碼
+// 9 ISBN C 非必填，最大13個字元，ISBN書碼
+// 10 MPN C 非必填，最大50個字元，MPN零件號碼
+// 11 Manufacturer C 非必填，最大255個字元，製造商名稱
+// 12 Brand C 非必填，最大255個字元，品牌名稱
+13 Category C 必填，最大255個字元，分類名稱。
+
+您可使用貴網站的分類，亦可至TW.SHOP.COM
+網站選擇合適的分類。請填寫最下層分類名稱。
+14 EAN C 非必填，最大13個字元，EAN商品條碼
+*/
+
+	<Product>
+		<SKU></SKU>
+		<Name></Name>
+		<Description></Description>
+		<URL></URL>
+		<Price></Price>
+		<LargeImage></LargeImage>
+		<SalePrice></SalePrice>
+		<UPC></UPC>
+		<ISBN></ISBN>
+		<MPN></MPN>
+		<Manufacturer>麵包屑手作屋</Manufacturer>
+		<Brand>麵包屑%26三合院 - 蛋糕舖</Brand>
+		<Category>分類</Category>
+		<EAN></EAN>
+		<Condition></Condition>
+	</Product>
+
